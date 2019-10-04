@@ -20,7 +20,7 @@ Future work will be to integrate the camera as a cheap webcam to be used with li
 
 It looks, the camera is working stable now.
 
-The default stream-resolution can be specified in app_httpd.c.
+The default stream-resolution can be specified in app_camera.c, line 69.
 
 
 ## Camera Web interfaces via http:
@@ -42,8 +42,11 @@ You need ESP-IDF  from: https://github.com/espressif/esp-idf
 The crosscompiler from: https://dl.espressif.com/dl/xtensa-esp32-elf-linux64-1.22.0-80-g6c4433a-5.2.0.tar.gz
 
 I compiled the project using Ubuntu with crosscompiler and make.
-Goto cam_server directory and edit the sdkconfig file to update your wifi AP settings
+
+Goto cam_server directory and edit the sdkconfig file to update your wifi AP settings.
+
 Then type "make" to compile the project.
+
 It also possible to use the Arduino IDE.
 
 The compressed webpage is in:..cam_server/cam_server/main/include/camera_index.h
