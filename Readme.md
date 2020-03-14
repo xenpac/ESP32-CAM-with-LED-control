@@ -2,10 +2,10 @@
 
 ## Overview
 
-This a stripped down version of the esp-who camera web server example at: http://github.com/espressif/esp-who
-I added the control of the onboard high-power LED to be used as flash for snapshots or illumination for streaming.
-It does not use a PWM, so its ON or OFF.
-The changes are all in app_http.c
+This a stripped down version of the esp-who camera web server example at: http://github.com/espressif/esp-who  
+I added the control of the onboard high-power LED to be used as flash for snapshots or illumination for streaming.  
+It does not use a PWM, so its ON or OFF.  
+The changes are all in app_http.c  
 
 Hardware: ESP32-CAM AI-THINKER Board with OV2640, that nice little CAM board sold everywhere.
 
