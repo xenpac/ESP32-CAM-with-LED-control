@@ -1,4 +1,5 @@
 # Camera Webserver ESP32-CAM ESP32-WROVER-B AI-THINKER Board with LED control
+Also look at Version 2 here: https://github.com/xenpac/ESP32-CAM-Linux-Motion
 
 ## Overview
 
